@@ -80,6 +80,20 @@ to see the current installed truffle version
 npm install ganache --global
 ```
 
+### Init project with Truffle
+
+```sh
+truffle init
+```
+
+### Create a smart contract
+
+```sh
+truffle create contract <mySmartContract>
+```
+
+
+
 
 
 
