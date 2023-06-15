@@ -51,8 +51,7 @@ nvm ls-remote
 ```sh
 nvm use 18.16.0
 ```
-
-==> Use a specific version of Node
+Use a specific version of Node
 
 
 ### NPM
