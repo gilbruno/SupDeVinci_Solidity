@@ -54,11 +54,13 @@ nvm use 18.16.0
 
 ==> Use a specific version of Node
 
+
 ### NPM
 
 ```sh
 npm install -g npm
 ```
+
 
 ### Truffle
 
@@ -71,6 +73,7 @@ truffle version
 ```
 
 to see the current installed truffle version
+
 
 ### Ganache CLI
 
