@@ -22,4 +22,8 @@ contract State_Visibility {
     return 7;
   }
 
+  //Try in Remix !!
+  //View & Pure functions do not send TX on the blockchain
+  // They appear in a blue color in Remix
+
 }

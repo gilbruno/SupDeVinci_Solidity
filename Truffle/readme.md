@@ -93,6 +93,12 @@ truffle create contract <mySmartContract>
 ```
 
 
+### Faucets
+
+1) https://faucets.chain.link
+1) https://sepoliafaucet.com
+
+
 
 
 
