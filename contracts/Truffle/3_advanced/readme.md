@@ -51,7 +51,21 @@
         - On aborde ici la notion de "ownership" d'un contrat via le constructeur
 
 ## Cours 3.7
-        - Notion de "modiofier" pour une meilleure écriture des "require ownership"
+        - Notion de "modifier" pour une meilleure écriture des "require ownership"
         - Tester dans Remix via Metamask (Avoir des SepoliaEth dans son wallet MM)
+
+## Cours 3.8
+        - What happens if someone send funds to this contract without using "fund" function ? Like Metamask "send" for example
+        - Notion de : "receive" a "fallback" (ne contiennent pas le mot clé 'function' au même titre que le "constructor")
+
+N.B : 
+
+Les mots clé : 
+ - constant ==> constante
+ - immutable ==> consta,nte qui peut etre modifiée 1 seule fois dans le constructeur 
+ (ex : on peut rendre "imutable" notre "owner" dans le constructeur)
+
+doivent être utilisés lorsqu'on doit gérer des variables immutables
+
 
 
