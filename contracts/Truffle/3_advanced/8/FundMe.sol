@@ -76,7 +76,7 @@ contract FundMe {
     fund();
   }
 
-  // Explainer from: https://solidity-by-example.org/fallback/
+  // Explainer from: https://solidity-by-example.org/fallback/ 
   // Ether is sent to contract
   //      is msg.data empty?
   //          /   \ 
@@ -87,4 +87,6 @@ contract FundMe {
   //   yes   no
   //  /        \
   //receive()  fallback()
+
+  //NB : To try send data on Remix, you must use "Low level interactions" at the bottom of the deployed SC
 }
