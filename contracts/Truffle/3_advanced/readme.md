@@ -46,3 +46,12 @@
                 - transfer
                 - send
                 - call
+
+## Cours 3.6
+        - On aborde ici la notion de "ownership" d'un contrat via le constructeur
+
+## Cours 3.7
+        - Notion de "modiofier" pour une meilleure écriture des "require ownership"
+        - Tester dans Remix via Metamask (Avoir des SepoliaEth dans son wallet MM)
+
+
