@@ -34,7 +34,15 @@
          
 ## Cours 3.3
         - Utilisation de 'msg.sender' pour avoir une trace des users qui envoient des fonds au SC
+
+## Cours 3.4        
         - Refacto du code de calcul du prix ETH/USD dans une "library" 
                 Libraries are similar to contracts, but you can't declare any state variable and you can't send ether.
                 A library is embedded into the contract if all library functions are internal.
                 Otherwise the library must be deployed and then linked before the contract is deployed.
+
+## Cours 3.5
+        - On aborde les 3 manières d'envoyer de l'argent à l'extérieur du smart contract : 
+                - transfer
+                - send
+                - call
