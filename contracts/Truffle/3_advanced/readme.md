@@ -20,3 +20,21 @@
 
     - Chainlink Keepers : Decentralized Event-Driven Execution
 
+
+## Cours 3.1
+
+        - Utilisation de msg.value pour envoyer des fonds à un smart contract
+        - Test dans Remix
+
+## Cours 3.2
+        - Utilisation d'un Oracle pour connaitre le prix d'un ETH en USD (data off-chain)
+        - Si on veut importer un contrat externe ==> Import via NPM + modifier settings de solidity 
+        afin d'ajouter l'option "solidity.packageDefaultDependenciesDirectory": "node_modules"
+
+         
+## Cours 3.3
+        - Utilisation de 'msg.sender' pour avoir une trace des users qui envoient des fonds au SC
+        - Refacto du code de calcul du prix ETH/USD dans une "library" 
+                Libraries are similar to contracts, but you can't declare any state variable and you can't send ether.
+                A library is embedded into the contract if all library functions are internal.
+                Otherwise the library must be deployed and then linked before the contract is deployed.
